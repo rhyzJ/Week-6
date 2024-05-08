@@ -105,4 +105,3 @@ const minutes = parseInt(userInput);
 const seconds = timeInSeconds(userInput);
 
 alert(`${userInput} minutes is equal to ${seconds} seconds.`);
-
