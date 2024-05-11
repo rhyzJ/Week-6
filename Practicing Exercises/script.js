@@ -66,6 +66,3 @@ var seconds = timeInSeconds(minutes);
 alert(`There are ${seconds} seconds in ${minutes} minutes`);
 
 ///woohooooooo completed 🫡
-
-
-
