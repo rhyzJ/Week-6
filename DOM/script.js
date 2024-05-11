@@ -53,7 +53,8 @@ function changeColour() {
 // style; //changes the style of the element
 
 const headerEl = document.getElementById("headerId");
-headerEl.style.fontSize = "50px";
+headerEl.style.fontSize = "50px"; // changes the fontsize of that element
+headerEl.textContent = "New Header"; //changes only the text within that element
 
 //Exercise 1
 const counterNum = document.getElementById("counter");
@@ -63,5 +64,3 @@ function counterAddOne() {
   counter++;
   counterNum.textContent = counter;
 }
-
-
